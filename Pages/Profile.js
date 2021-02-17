@@ -5,7 +5,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 class Profile extends Component{
     render(){
         return(
-                <Text>This is ProfilePage</Text>
+                <Text>This is ProfilePage let this work</Text>
                 );
     };
 };
