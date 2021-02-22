@@ -10,6 +10,7 @@ import Homepage from './pages/Homepage/Homepage';
 //import ListView from './Components/ListView';
 //import Tutor from './pages/TutorProfile/TutorProfile';
 //import Img from './Components/image'
+//import Tprofile from './Pages/TeacherProfile/TeacherProfile';
 
 
 

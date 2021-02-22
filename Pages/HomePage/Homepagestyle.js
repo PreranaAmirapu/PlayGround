@@ -1,19 +1,23 @@
-.item {
-    background-color: 'white';
-    margin-inline-start: 8;
-    margin-left:10;
-    flex:1;
-    align-items:'stretch';
-    justify-content:'center';
-    padding:8;
-    border-style:'solid';
-    border-left-width:'thin';
-    border-right-width:'thin';
-    border-right-color:'lightgray';
-    border-left-color:'lightgray';
+const styles = StyleSheet.create({
+
+
+
+item: {
+    backgroundcolor:'white',
+    margininlinestart: 8,
+    marginleft:10,
+    flex:1,
+    alignitems:'stretch',
+    justifycontent:'center',
+    padding:8,
+    borderstyle:'solid',
+    borderleftwidth:'thin',
+    borderrightwidth:'thin',
+    borderrightcolor:'lightgray',
+    borderleftcolor:'lightgray',
 
   }
-  .title{
+  .titlez{
     font-size: 14;
     flex:1;
     font-weight:'bold'
@@ -22,10 +26,7 @@
     font-size:13;
     flex:1
   }
-  .text{
-    font-size:13;
-    flex:3
-  }
+  
   .text1{
     font-size:30;
     font-weight:'bold';
@@ -67,20 +68,6 @@
     text-align:'right';
     border-bottom-width:'thin'
   }
-  .messages{
-    padding:15;
-    margin-bottom:5;
-    margin-top:10;
-    font-size:20;
-    margin-left:10;
-    font-weight:'bold';
-    margin-right:7;
-    border-top-color:'lightgray';
-    font-family:'sans-serif';
-    text-align:'right';
-    border-top-width:'thin';
-    border-bottom-width:'thin';
-    border-bottom-color:'lightgray'
-  }
+});
 
- 
+export default styles;
