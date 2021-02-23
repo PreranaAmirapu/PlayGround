@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import {StatusBar,TextInput, SafeAreaView, FlatList,StyleSheet,Image, Text, View } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
-import Calendar from '../Calender';
-import styles from '../TutorProfile/TutorProfile.sass'
+import Calendar from '../../Components/Calender';
+import styles from './TutorprofileStyles';
 
 export default class Tutor extends Component{
     render(){
         return(
             <View>
                 <ScrollView>
-                    <View style={{flexDirection:'row'}}> 
-                    <View style={{width: 250, height: 250}} >
+                    <View style={styles.outerview}> 
+                    <View style={styles.innerview} >
                     <Image
                     className={styles.tinyLogo}
                     source={{
@@ -21,7 +21,7 @@ export default class Tutor extends Component{
             <Text className={styles.mail}> Johanna@company.com </Text>
                     </View>
                     
-                     <View style={{width: 250, height: 250}}>
+                     <View style={styles.innerview}>
                      <Image
 
                     className={styles.Message}
